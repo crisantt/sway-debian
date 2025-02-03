@@ -7,14 +7,14 @@ mkdir -p ~/.themes
 mkdir -p ~/.icons
 mkdir -p ~/github
 
-bash ~/github/SwayDebian/scripts/packages.sh
+bash ~/github/sway-debian/scripts/packages.sh
 clear
 
-bash ~/github/SwayDebian/scripts/sway.sh
+bash ~/github/sway-debian/scripts/sway.sh
 clear
 
-bash ~/github/SwayDebian/scripts/fonts.sh
+bash ~/github/sway-debian/scripts/fonts.sh
 clear
 
-bash ~/github/SwayDebian/scripts/build-from-source.sh
+bash ~/github/sway-debian/scripts/build-from-source.sh
 clear
