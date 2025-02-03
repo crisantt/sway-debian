@@ -1,2 +1,2 @@
-# sway-debian
+# Vanilla Sway on Debian-Bookworm
 
