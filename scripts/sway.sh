@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo apt install sway wayland-utils wayland-protocols libwlroots-0.18 libwlroots-0.18-dev xwayland xwayland-run -y
+sudo apt install sway wayland-utils wayland-protocols waylandpp-dev libwlroots10 libwlroots-dev libwlroots-examples xwayland -y
