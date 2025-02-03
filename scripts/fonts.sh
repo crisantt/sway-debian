@@ -10,4 +10,6 @@ for font in "${fonts[@]}"; do
     unzip -n "${font}.zip"
 done
 
+fc-cache -fv
+
 cd ~/
