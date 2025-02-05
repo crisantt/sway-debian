@@ -8,6 +8,7 @@ fonts=("FiraCode" "JetBrainsMono" "Mononoki" "Terminus" "CommitMono" "Noto")
 for font in "${fonts[@]}"; do
     wget "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/${font}.zip"
     unzip -n "${font}.zip"
+    rm -rf "${font}.zip"
 done
 
 fc-cache -fv
