@@ -59,6 +59,9 @@ echo "export PATH=\$PATH:\$HOME/packages/zen" >> $HOME/.bashrc
 source .bashrc
 sudo ln -sf $HOME/packages/zen/zen-bin /usr/local/bin/zen
 
-cd $HOME
+#Fastfetch (2025-feb-05)
+wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.35.0/fastfetch-linux-amd64.deb
+sudo apt install ./fastfetch-linux-amd64.deb -y
 
+cd ~/
 echo "DONEEE!!"
